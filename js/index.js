@@ -10,11 +10,12 @@ const tituloBibliografia = document.createElement("h2");
 const subTitBibliografia = document.createElement("p");
 
 const imagens = [
-    { src: "feminismo-e-negritude/images/mulheresHistoriaELiteratura.jpg", alt: "Capa do livro Mulheres, história e literatura em João Gumes" },
-    { src: "feminismo-e-negritude/images/interseccionalidade.jpg", alt: "Capa do livro interseccionalidade" },
-    { src: "feminismo-e-negritude/images/mulheresNoPoder.jpg", alt: "Capa do livro Mulheres e Poder" },
-    { src: "feminismo-e-negritude/images/mulherNegra.jpg", alt: "Capa do caderno Geledes 'Mulher Negra'" }
+    { src: "./images/mulheresHistoriaELiteratura.jpg", alt: "Capa do livro Mulheres, história e literatura em João Gomes" },
+    { src: "./images/interseccionalidade.jpg", alt: "Capa do livro interseccionalidade" },
+    { src: "./images/mulheresNoPoder.jpg", alt: "Capa do livro Mulheres e Poder" },
+    { src: "./images/mulherNegra.jpg", alt: "Capa do caderno Geledes 'Mulher Negra'" }
 ];
+
 
 // Conteúdo e atributos dos elementos
 titulo.innerText = "Mulheres Negras em Guanambi: Superando a Invisibilidade";
