@@ -6,6 +6,7 @@ body{
 }
 body::-webkit-scrollbar{
     display: none;
+   
 }
 
 *{
@@ -77,6 +78,7 @@ nav{
 }
 .introducao, .introVideo{
     width: 47%;
+    
 }
 iframe{
     width: 100%;
@@ -129,20 +131,34 @@ footer{
     .apresentacao{
         display: flex;
         flex-direction: column;
+
         
     }
     .apresentacao :first-child{
         width: 100%;
-        margin-bottom: 5%;
+        text-align: center;
+        font-size: medium;
+        
     }
+
+    .apresentacao :nth-child(2){
+        font-size: medium;
+        margin-bottom: 10px;
+
+        
+    }
+
     .apresentacao :last-child{
+    
         width: 100%;
+        height: 300px;
     }
     .acessos{
         display: none;
     }
     .tituloLogo{
         display: flex;
+        font-size: small;
         justify-content: center;
         width: 100%;
     }
