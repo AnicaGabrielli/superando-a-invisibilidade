@@ -1,0 +1,149 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow: scroll;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Estilo da Barra */
+header {
+    position: sticky;
+    z-index: 1;
+  }
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: saddlebrown;
+    color: white;
+    font-size: larger;
+
+}
+.imgNegrasNav{
+    border-radius: 50%;
+    margin: 1%;
+}
+.tituloLogo{
+    width: 50%;
+    display: flex;
+    padding: 1%;
+    gap: 2%;
+    letter-spacing: 2px;
+
+}
+.titulo{
+    padding: 8px 0px;
+
+}
+.acessos{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.navLink{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+.navLink:hover{
+    border-bottom: 1px white solid;
+    
+}
+
+/* Estilo da apresentação*/
+
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: space-around;
+    width: 100%;
+    padding: 4%;
+    border-bottom: 10px dashed black ;
+}
+.introducao, .introVideo{
+    width: 47%;
+}
+iframe{
+    width: 100%;
+}
+.introducao > h1{
+    letter-spacing: 2px;
+}
+.introducao > p{
+    text-align: justify;
+    font-size: x-large;
+    margin-top: 5%;
+}
+
+/* Estilo da sessão de livros */
+
+.bibliografia{
+    padding-top: 3%;
+    text-align: center;
+}
+.bibliografia > h2{
+    font-size: xx-large;
+    letter-spacing: 2px;
+}
+.livros{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: width 4s ease, transform 4s ease, box-shadow 4s ease;
+}
+.livros > img{
+    margin: 1%;
+}
+img:hover{
+    width: 300px;
+    transform: scale(1.1);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+/* Estilização do footer */
+
+footer{
+    width: 100%;
+    background-color:saddlebrown;
+    text-align: center;
+    color: white;
+    padding: 20px 20px;
+}
+
+/* responsividde */
+
+@media only screen and (max-width: 900px) {
+    .apresentacao{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .apresentacao :first-child{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .apresentacao :last-child{
+        width: 100%;
+    }
+    .acessos{
+        display: none;
+    }
+    .tituloLogo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
