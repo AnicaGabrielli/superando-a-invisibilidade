@@ -13,6 +13,7 @@ body::-webkit-scrollbar{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid yellow;
     
 }
 
@@ -131,8 +132,12 @@ footer{
     .apresentacao{
         display: flex;
         flex-direction: column;
+    
+    }
+    
+    .introducao{
+        height: 200px;
 
-        
     }
     .apresentacao :first-child{
         width: 100%;
